@@ -1,0 +1,58 @@
+/*menu*/
+aside{
+    float: left;
+    width: 261px;
+    color:white;
+    height: 500px;
+    position:sticky;
+    top:0;
+}
+li>a{
+    color: white;
+}
+.check{
+    margin-left: -20px;
+}
+input{
+    width:60px;
+    margin-right: -10px;
+}
+button{
+    margin-top: 10px;
+    width: 145px;
+}
+/*space*/
+.space{
+    padding:300px 0px 300px 0px;
+}
+/*main*/
+.positive{
+   margin-right: auto;
+
+}
+td{
+    border: 2px none black;
+    background-color: white;
+}
+
+/*product*/
+.product>a>img{
+    width: 320px;
+    padding:20px 20px 0px 20px;
+}
+.product-text{
+    color: white;
+    text-align:center;
+    font-weight: bold;
+}
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-flow:row wrap;
+    text-align: center;
+    width:980px;
+    padding-bottom: 15px;
+}
+
+
+

@@ -1,0 +1,60 @@
+/*title*/
+.title{
+    width: 600px;
+    margin:auto;
+    background-image: url(../photo/linkme/back.PNG);
+    height: 70px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 5px;
+    background-repeat:repeat;
+    background-size: 75px;
+
+}
+.title-text1{
+    float: left;
+    color: black;
+    margin:25px 0px 25px 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.title-text2{
+    float: left;
+    margin:25px 0px 25px 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+/*main*/
+.main{
+    width: 603px;
+    margin:30px auto auto auto ;
+    background-color: white;
+    padding-top: 25px;
+    line-height:  45px;
+    text-align: left;
+    border-radius: 5px;
+}
+.description{
+    width:280px;
+    height: 150px;
+    word-wrap: break-word;
+}
+.main-text{
+    margin-left: 80px;
+    padding: 0px 40px 0px 40px;
+}
+.input{
+    width: 250px;
+}
+.check{
+    margin-left: 70px;
+    margin-top: -20px;
+}
+button{
+   margin-left: 180px;
+   width: 70px;
+   height: 30px;
+   margin-bottom: 15px;
+}
