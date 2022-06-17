@@ -1,0 +1,86 @@
+* {
+    cursor: url(../photo/mouse.cur),auto;
+    font-family:微軟正黑體 ;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+*:active{
+    cursor: url(../photo/click.cur),auto;
+}
+
+a{
+    color:black;
+}
+
+/*backgound*/
+.bluebg{
+    background-color:rgb(143,179,255)
+}
+.down-bg{
+    background-image: url(../photo/bg.jpeg);
+    background-repeat: repeat;
+    background-size: 450px;
+}
+
+/*logo and search*/
+
+/*logo*/
+.header-logo>a>img{
+    float: left;
+    width:200px;
+    height:120px;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+/*search*/
+.h-s-text>input{
+
+    margin-left: 975px;
+    margin-top: 0px;
+    width: 280px;
+    height: 30px;
+}
+.h-s-button>button{
+    float: right;
+    margin-right: 210px;
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+}
+.h-s-button>button>img{
+    max-width: 20px;
+    max-height: 40px;
+    margin-right: 10px;
+}
+
+/*nav*/
+.menu{
+    border: 1px solid black;
+    padding: 10px;
+    margin:auto 0px;
+    width: 1503px;
+    background-image: url(../photo/menu.png);
+    text-align:center ;
+}
+.menu>a{
+    padding:14px 20px;
+    display:inline-block;
+    color:white;
+    text-decoration: none;
+}
+.menu>a:hover{
+    background-color:rgba(255, 228, 196, 0.949);
+    }
+
+/*footer*/
+.copyright{
+    background: url(../photo/footer.PNG);
+    background-repeat: repeat;
+    text-align: center;
+    padding:10px;
+    color:white;
+}

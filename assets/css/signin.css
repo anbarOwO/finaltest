@@ -1,0 +1,95 @@
+/*main*/
+.block {
+    padding: 75px 0px 75px 0px;
+    text-align: center;
+    border:1px solid black;
+    background-color: white;
+    position:absolute;
+    z-index: 10;
+    width:500px;
+    height: 300px;
+    line-height: 50px;
+    
+    /*locate*/
+    top:62%;
+    left:32%;
+    
+}
+/*login-logo*/
+.login-sign>img{
+    max-width:140px; 
+    position:relative;
+    z-index: 13;
+    float: left;
+    margin-left: 5px;
+    margin-top: -72px;
+    
+}
+
+/*space*/
+.space{
+    padding:300px;
+    text-align: center;
+}
+
+/*down-funtion*/
+.down{
+    text-align: right;
+    margin-left: 20px;
+    line-height: 30px;
+    margin-right: 20px;
+    
+}
+.login-button{
+    margin-right:200px; 
+}
+.f-pass>a{
+    float: left;
+   margin-top: 14px;
+    
+}
+.register{
+    margin-top:14px; ;
+    margin-left: 200px;
+    
+}
+
+/*logo*/
+.block>img{
+    max-width:200px ;
+    max-height: 120px;
+    margin:0%;
+    padding:0px;
+    display:block;
+    
+}
+/*boxs*/
+.boxs{
+    margin-left: 50px;
+}
+.box1{
+    position: absolute;
+    z-index: 11;
+    float: left;
+    
+}
+
+.box2{
+    float:left;
+    
+    margin-left: 92px;
+}
+
+.box3{
+    float:left;
+    
+}
+
+.box4{
+    margin-right:68px;
+    margin-top:45px;
+}
+
+.f-pass,.register>a{
+    color:blue;
+}

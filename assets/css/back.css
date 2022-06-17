@@ -1,0 +1,69 @@
+/*back-menu*/
+.back-menu{
+    margin-left: 540px;
+    position: sticky;
+    top:50px;
+    width: 450px;
+    height: 52px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 15px;
+    background-image: url(../photo/backstage/back.jpeg);
+}
+.back-menu>a{
+    color: white;
+    font-weight: bold;
+    margin-top: 25555;
+    padding: 15px 15px 15px 15px;
+}
+.back-menu>a:hover{
+background-color:rgba(255, 228, 196, 0.949) ;
+}
+/*all block*/
+.block{
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 250px;
+    background-image: url(../photo/backstage/back.jpeg);
+    width: 1070px;
+    
+}
+.back{
+    background-color: white;
+    padding: 15px 15px 40px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    
+}
+h2{
+    margin-left: 50px;
+}
+
+td{
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+}
+.input{
+    margin-left :350px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+/*linkme*/
+.description{
+    width: 300px;
+    text-align: left;
+}
+.linkme{
+    margin-left: 20px;
+}
+
+/*button*/
+.update-but{
+    margin-left: 120px;
+}
+.change-but-sub{
+    margin-left: 80px;
+}
+

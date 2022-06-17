@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP藥坊</title>
+    <link rel="stylesheet" href="../assets/css/shopcar.css">
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <script src="../assets/js/shopcar.js"></script>
+</head>
+<body>
+    <div class="ibody">
+        <div class="bluebg">
+        <header>
+                <div class="header-logo">
+                    <a href="../index.html">
+                        <img src="../assets/photo/logo.png">
+                    </a>
+                </div>
+
+                <div class="header-search">
+                    <div class="h-s-text">
+                        <input type="text" placeholder="想要找甚麼?">
+                    </div>
+
+                    <div class="h-s-button">
+                        <button type="submit"><img src="../assets/photo/search.png"></button>
+                    </div>
+                </div>
+                <br>
+                
+               
+        </header>
+
+        <nav>
+            <div class="menu">
+                <a href="signin.html">登入</a>
+                <a href="register.html">註冊</a>
+                <a href="shopcar.html">購物車</a>
+                <a href="positive.html">正面效果</a>
+                <a href="negative.html">負面效果</a>
+                <a href="cure.html">治癒劑</a>
+                <a href="mix.html">混合效果</a>
+                <a href="normal.html">一般藥水</a>
+                <a href="throw.html">飛濺藥水</a>
+                <a href="linkme.html">聯絡我們</a>
+                <a href="member.html">關於我們</a>
+            </div>
+        </div>
+        
+        <div class="down-bg">
+        
+        <article>
+            <div class="shopcar">
+            <br>   
+            <br>
+            <div class="block">
+                
+                <div class="shopcar-logo">
+                    <img src="../assets/photo/shopcar/shopcar-sign.jpeg">
+                </div>
+
+                <div class="shopcar-main">
+                    <table>
+                        <tr>
+                            <th> </td>
+                            <th>商品名稱</td>
+                            <th>單價</td>
+                            <th>數量</td>
+                            <th>總計</td>
+                            <th> </th>
+                        </tr>
+
+                        <tr>
+                            <td><img src="../assets/photo/nagtive/poi.jpeg"></td>
+                            <td>劇毒藥水</td>
+                            <td><span id="price">800</span></td>
+                            <td>
+                                <button onclick="low(0)">-</button>
+                                    <input type="text" id="num" value="1" class="value">
+                                <button onclick="high(0)">+</button>
+                            </td>
+                            <td><span id="total">$800</span></td>
+                            <td><button type="button" onclick="rm(this)">移除</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="../assets/photo/mix/turtle.jpeg"></td>
+                            <td>龜仙藥水</td>
+                            <td><span id="price">650</span></td>
+                            <td>
+                                <button onclick="low(1)">-</button>
+                                    <input type="text" id="num" value="3" class="value">
+                                <button onclick="high(1)">+</button>
+                            </td>
+                            <td><span id="total">$1950</span></td>
+                            <td><button type="button" onclick="rm(this)">移除</button></td>
+                        </tr>
+
+                        <tr>
+                            <td><img src="../assets/photo/cure/poi.jpeg"></td>
+                            <td>解毒劑</td>
+                            <td><span id="price">600</span></td>
+                            <td>
+                                <button onclick="low(2)">-</button>
+                                    <input type="text" id="num" value="4" class="value">
+                                <button onclick="high(2)">+</button>
+                            </td>
+                            <td><span id="total">$2400</span></td>
+                            <td><button type="button" onclick="rm(this)">移除</button></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>total:$&nbsp;5120</td>
+                            <td></td>
+                        </tr>
+                        <div class="imformation">
+                        <tr>
+                            <td colspan="3" class="write-title">填寫資料</td>
+                            <td colspan="3" class="good-title">確認資料</td>
+                            
+                            
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" class="imfor">姓名:&nbsp;&nbsp;&nbsp;<input value="王阿明"></td>
+                            <td colspan="3" class="good-imfor">姓名:&nbsp;王阿明</td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" class="imfor">電話:&nbsp;&nbsp;&nbsp;<input value="0947555812"></td>
+                            <td colspan="3" class="good-imfor">電話:&nbsp;0947555812</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" class="imfor">地址:&nbsp;&nbsp;&nbsp;<input value="桃園市平鎮區中心南路58號"></td>
+                            <td colspan="3" class="good-imfor">地址:&nbsp;桃園市平鎮區中心南路58號</td>
+                           
+                        </tr>
+
+                        <tr>
+                            <td colspan="3" class="imfor">
+                                付款方式:&nbsp;&nbsp;&nbsp;
+                                <select>
+                                    <option>7-11(60元)</option>
+                                    <option>全家(60元)</option>
+                                    <option>萊爾富(60元)</option>
+                                    <option>OK(60元)</option>
+                                    <option>宅配(120元)</option>
+                                </select>
+                            </td>
+                            <td colspan="3" class="good-imfor">付款方式:&nbsp;7-11</td>
+                        </tr>
+                        </div>
+                        <button type="submit" class="submit"></button>
+                    
+                    </table>
+                    <br>
+                
+                    
+                </div>
+            </div>
+            <br>
+            <br>
+          
+            </div>
+        </article>
+        
+        </div>
+        
+        <footer>
+            <div class="copyright">
+                <h4>Copyrgiht @ 2022 All rights reserved</h4>
+            </div>
+        </footer>
+
+            
+
+    </div>            
+              
+
+</body>
+</html>
