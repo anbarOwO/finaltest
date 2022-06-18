@@ -90,3 +90,10 @@ table{
     width: 365px;
     
 }  
+.rank-img>img{
+    position: absolute;
+    z-index: 20;
+    width: 50px;
+    margin-left: -170px;
+    margin-top: 10px;
+}
