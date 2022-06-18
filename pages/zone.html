@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MP藥坊</title>
-    <link rel="stylesheet" href="../assets/css/register.css">
+    <link rel="stylesheet" href="../assets/css/back zone.css">
     <link rel="icon" type="image/png" href="http://example.com/myicon.png">
     <link rel="stylesheet" href="../assets/css/all.css">
-    <script src="../assets/js/register-box.js"></script>
+    <script src="../assets/js/zone.js"></script>
 </head>
 <body>
     <div class="ibody">
@@ -36,7 +36,8 @@
 
         <nav>
             <div class="menu">
-                <a href="zone.html">會員專區</a>
+                <a href="signin.html">登入</a>
+                <a href="register.html">註冊</a>
                 <a href="shopcar.html">購物車</a>
                 <a href="positive.html">正面效果</a>
                 <a href="negative.html">負面效果</a>
@@ -45,65 +46,96 @@
                 <a href="normal.html">一般藥水</a>
                 <a href="throw.html">飛濺藥水</a>
                 <a href="linkme.html">聯絡我們</a>
-                <a href="member.html">關於我們</a>
-                    
+                <a href="member.html">關於我們</a>  
             </div>
         </div>
+        
         <div class="down-bg">
-        
-        <article>
-            <div class="register">
-                <div class="space">
-                    1
-                </div>
-                <div class="block4">
-                    <div class="register-sign">
-                        <img src="../assets/photo/login register/register-sign.png">
+            <br>
+
+            <div class="block">
+                <br>
+                <div class="back">
+                <a hred name="個人資料"><h2>個人資料</h2></a>
+                    <div class="input">                  
+                        用戶名稱:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Abc123456<p>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" value="hello@gmail.com"><button type="submit" style="margin-left:10px">修改email</button><p>
+                        &nbsp;&nbsp;用戶密碼:&nbsp;&nbsp;&nbsp;<input type="password" value="123456" disabled><button type="submit" style="margin-left:10px" onclick="change()">修改密碼
+                        </button><p>
+                        <div class="password-hidden" id="password">
+                            輸入舊密碼:&nbsp;&nbsp;<input type="password"><p>
+                            輸入新密碼:&nbsp;&nbsp;<input type="password"><button type="submit" style="margin-left:10px">修改</button><p>
+                        </div>
                     </div>
-                    
-
-                    <label><b>Password</b>
-                    <input type="email" placeholder="輸入原密碼" name="uname" required></label>
-                    
-                    <p>
-
-                    <label><b>Password</b>
-                    <input type="password" placeholder="輸入新密碼" name="psw" required></label>
-                    
-                    <p>
-
-                    <label><b>Confirm</b>
-                    <input type="password" placeholder="再次輸入密碼" name="psw" required></label>
-                         
-                    <br>
-                    <button class="loginbtn" type="submit">確認更改</button> 
-                    <br>
-                    <button class="ca"><a href="zone.html">更改資料</a></button>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
-                            <button class="ca"><a href="record.html">訂單紀錄</a></button>          
                 </div>
-                
-
-                <script>
-                    var n=2;
-                    copybox();
-                </script>
-
-                <div class="box1">
-                    <img src="../assets/photo/login register/register-book.jpeg">
-                </div>
-
-                
+                <br>
             </div>
-        </article>
+
+            <div class="block">
+                <br>
+                <div class="back">
+                    <a hred name="消費紀錄"><h2>消費紀錄</h2></a>
+                    <div class="pay_table">
+                        <table style="margin-left: 100px;">
+                            <tr>
+                                <td>商品圖片</td>
+                                <td>商品名稱</td>
+                                <td>商品單價</td>
+                                <td>商品數量</td>
+                                <td>總金額</td>
+                                <td>購買時間</td>
+                            </tr>
+
+                            <tr>
+                                <td class="pay"><img src="../assets/photo/nagtive/poi.jpeg"></td>
+                                <td>劇毒藥水</td>
+                                <td>800</td>
+                                <td>1</td>
+                                <td>$800</td>
+                                <td>2022/3/15 &nbsp;11:28</td>
+                            </tr>
+
+                            <tr>
+                                <td class="pay"><img src="../assets/photo/mix/turtle.jpeg"></td>
+                                <td>龜仙藥水</td>
+                                <td>650</td>
+                                <td>3</td>
+                                <td>$1950</td>
+                                <td>2022/3/15 &nbsp;11:28</td>
+                            </tr>
+
+                            <tr>
+                                <td class="pay"><img src="../assets/photo/cure/poi.jpeg"></td>
+                                <td>解毒劑</td>
+                                <td>600</td>
+                                <td>4</td>
+                                <td>$2400</td>
+                                <td>2022/3/15 &nbsp;11:28</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+               
+            </div>
+            <br>
+            <br>
+            
+                </div>
+            
+            </div>
+
         
         </div>
+
         
         <footer>
             <div class="copyright">
                 <h4>Copyrgiht @ 2022 All rights reserved</h4>
             </div>
         </footer>
+
+            
+
     </div>            
               
 

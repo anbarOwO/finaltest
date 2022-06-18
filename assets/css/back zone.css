@@ -50,6 +50,7 @@ td{
     margin-bottom: 55px;
 }
 
+/*back*/
 /*linkme*/
 .description{
     width: 300px;
@@ -67,3 +68,15 @@ td{
     margin-left: 80px;
 }
 
+/*zone*/
+/*password*/
+.password-hidden{
+    visibility: hidden;
+}
+.password-show{
+    visibility:visible;
+}
+/*pay*/
+.pay>img{
+    width: 200px;
+}
